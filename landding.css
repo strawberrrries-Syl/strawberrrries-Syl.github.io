@@ -2,7 +2,7 @@ body {
     border:0ch;
     margin:0px;
     width :100%;
-    height : 740px;
+    height : 760px;
     background-image: url("imgs/sky.png");
     background-size:cover;
     background-position: 0%;
@@ -11,16 +11,15 @@ body {
 
 header{
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     padding:30px 8%;
     position: absolute;
     top: 5%;
-    width : 100%;
-    /* height: 10%; */
-    /* border: 5px solid black; */
+    width : 80%;
+    margin-left:2rem;
     background-color: rgba(239, 225, 254, 0.696);
     align-self: center;
+
 }
 
 .logo {
@@ -58,8 +57,8 @@ header{
 
 li, a, button {
     font-family: sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 20px;
     color:aliceblue;
     text-decoration: none;
 }
@@ -74,7 +73,7 @@ li, a, button {
     width : 100%;
     height: 500px;
     margin: 0%;
-    border: 5px solid rgb(147, 103, 147);
+    /* border: 5px solid rgb(147, 103, 147); */
     padding:0cm;
     /* background-color: #817a95; */
     display: block;
@@ -160,14 +159,74 @@ li, a, button {
     margin-left: 36px;
     background-color:  rgb(139, 120, 165);
     box-shadow: 10px 10px 5px rgba(124, 108, 136, 0.642);
-    
 }
+
+/* .project-detail p {
+    border: 0;
+    margin: 0;
+    padding:0;
+    display: inline-block;
+} */
 
 #scene {
     float:right;
+    display: inline;
+    border: 0;
+    
 }
 
 #feedthem {
     float:right;
+    display: inline;
+    border: 0;
+
+    /* display: inline-block; */
+    /* margin-right:0; */
+}
+
+.project-text {
+    /* border:3px solit black; */
+    margin:0;
+    width:50%;
+    height:100%;
+    display: inline-block;
+}
+
+.project-name {
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 15px;
+    margin-top: 30px;
+    color: aliceblue;
+    float: left;
+    display: block;
+}
+
+.project-name a {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.project-name a:hover {
+    background-color: rgb(134, 74, 190);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.project-techskill {
+    font-weight: bolder;
+    font-size: small;
+    color: rgb(212, 212, 212);
+    margin-left: 30px;
+    margin-top: 35px;
+    float: right;
+}
+
+.project-info {
+    margin-top: 2px;
+    margin-left: 1rem;
+    display: inline-block;
+    color: rgb(207, 196, 255);
 }
 
