@@ -1,0 +1,135 @@
+body {
+    border:0ch;
+    margin:0px;
+    width :100%;
+    /* height : 760px; */
+    background-image: url("imgs/sky.png");
+    background-size:cover;
+    background-position: 0%;
+    /* background-repeat: no-repeat; */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding:30px 8%;
+    position: absolute;
+    top: 5%;
+    width : 80%;
+    margin-left:2rem;
+    background-color: rgba(239, 225, 254, 0.696);
+    align-self: center;
+
+}
+
+.logo {
+    width:25px;
+    cursor: pointer;
+}
+/* nav part */
+.navbar {
+    margin:0%;
+    border:0;
+    padding:0;
+    width:30%;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding:10px;
+    margin:0;
+    display: flex;
+    font-size:30px;
+    font-family: sans-serif;
+}
+
+.navbar-nav li {
+   display: inline-block;
+   padding:0px 20px;
+}
+
+.navbar-nav li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar-nav li a:hover{
+    color:antiquewhite;
+}
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+#email {
+    margin-left: 600px;
+}
+
+/* profile part */
+.profile {
+    top:25%;
+    margin:0%;
+    padding:0;
+    left:0%;
+    width:20%;
+    height:95%;
+    display: inline-block;
+    position: absolute;
+    background-color:  rgba(245, 238, 255, 0.622);;
+    box-shadow: 10px 10px 5px rgba(124, 108, 136, 0.642);
+    
+}
+
+.profile p {
+    font-family: sans-serif;
+    margin-left:2rem;
+    
+}
+
+#myname {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#Avatar {
+    border-radius: 0%;
+    width:100%;
+    margin: auto;
+}
+
+.projects {
+    /* background-color: rgb(74, 184, 147); */
+    margin:0%;
+    right: 5%;
+    top:25%;
+    bottom: 5%;
+    padding:0;
+    width:70%;
+    height:100%;
+    display: inline-block;
+    position: absolute;
+    background-color:  rgba(245, 238, 255, 0.622);
+    box-shadow: 10px 10px 5px rgba(124, 108, 136, 0.642);
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.projects p{
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: large;
+    display: inline-block;
+    color: rgb(58, 54, 75);
+}
+
+.info {
+    margin-top: 100px;
+}
+
+#sea{
+    size: 10%;
+}
